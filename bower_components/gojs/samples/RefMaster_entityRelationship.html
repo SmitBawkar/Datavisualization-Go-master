@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Entity Relationship</title>
+ <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+ <link href="../assets/css/jquery.dataTables.min.css" rel="stylesheet" media="screen">  
+ <link rel="stylesheet" href="../assets/css/index.css">
+</head>
+<body>  
+    <div id="myDiagramDiv" class="col-md-12"></div>  
+  <div class="node-details">
+      <div class="node-details-header col-md-12" style="margin-top:0px;">
+          <div id='nodeName' class="pull-left">
+              <h4></h4>
+          </div>
+          <div class="pull-right">
+              <div id='closeNodeDetails' style="cursor:pointer">
+                  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+              </div>
+          </div>
+      </div>
+      <div class="node-details-content">
+          <ul id="nodeTab" class="nav nav-tabs">
+              <li class="active"><a data-toggle href="#AttributeDetails">Attribute</a></li>
+              <li ><a data-toggle href="#RuleDetails">Rule</a></li>
+          </ul>
+          <div class="tab-content">
+              <div class="tab-pane fade in active" id="AttributeDetails" role="tabpanel">
+                  <table id="tblAttributeDetails" class="display" cellspacing="0" width="100%">
+                      <thead>
+                          <tr>
+                              <th class="col-md-2">Name</th>
+                              <th class="col-md-1">Data Type</th>
+                              <th class="col-md-1">Primary</th>
+                              <th class="col-md-1">Mandatory</th>
+                              <th class="col-md-1">Unique</th>
+                              <th class="col-md-2">Default Value</th>
+                              <th class="col-md-2">Derived Entity</th>
+                              <th class="col-md-2">Derived Attribute</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="tab-pane fade" id="RuleDetails" role="tabpanel">
+                  <table id="tblRuleDetails" class="display" cellspacing="0" min-width="100%">
+                      <thead>
+                          <tr>
+                              <th class="col-md-2">Attribute Name</th>
+                              <th class="col-md-2">Rule Name</th>
+                              <th class="col-md-1">Rule Type</th>
+                              <th class="col-md-6">Rule Text</th>
+                              <th class="col-md-1">Priority</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.dataTables.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script> 
+  <script src="../release/go.js"></script>  
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/GoSetup.js"></script>
+   <script>
+        var dtAttributeDetails;
+        $(document).ready(function () {
+           init();
+        });
+    </script>
+</body>
+</html>

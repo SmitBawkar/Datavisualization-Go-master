@@ -1,0 +1,1546 @@
+[
+ {
+   "Type": "Edge",
+   "From": "Accumulation or Income",
+   "To": "Share Class",
+   "Title": "Name->Accumulation_or_Income",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Act or Pub",
+   "To": "Fee Rules",
+   "Title": "Name->Actual_or_Published",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Act or Pub",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Actual_or_Published",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Address",
+   "To": "Employee",
+   "Title": "Address_Code->Address",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Address",
+   "To": "Party Address",
+   "Title": "Address_Code->Address_Code",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Address Usage",
+   "To": "Employee",
+   "Title": "Name->Address_Usage",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Address Usage",
+   "To": "Party Address",
+   "Title": "Name->Address_Usage",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Agreement Type",
+   "To": "Party Relationships",
+   "Title": "Name->Agreement_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Asset Class",
+   "To": "Asset Sub Class",
+   "Title": "Name->Asset_Class",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Asset Type",
+   "To": "Asset Sub Type",
+   "Title": "Name->Asset_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Benchmark Use Type",
+   "To": "Fund Benchmark",
+   "Title": "Name->Benchmark_Use",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Bloomberg Industry Group",
+   "To": "Bloomberg Industry Sub Group",
+   "Title": "Name->Industry_Group",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Bloomberg Industry Group",
+   "To": "Party",
+   "Title": "Name->Bloomberg_Industry_Group",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Bloomberg Industry Sector",
+   "To": "Bloomberg Industry Group",
+   "Title": "Name->Sector",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Bloomberg Industry Sector",
+   "To": "Party",
+   "Title": "Name->Bloomberg_Industry_Sector",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Bloomberg Industry Sub Group",
+   "To": "Party",
+   "Title": "Name->Bloomberg_Industry_Sub_Group",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Calendar Frequency Rule",
+   "To": "Dealing Rules",
+   "Title": "Name->Notice_Rule|Name->Dealing_Rule",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Calendar Frequency Rule",
+   "To": "Fee Rules",
+   "Title": "Name->Day_Count_Rule",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Calendar Frequency Rule",
+   "To": "Share Class Dealing Rule",
+   "Title": "Name->Notice_Rule|Name->Dealing_Rule",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Calendar Frequency Rule",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Day_Count_Rule",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Calendar Frequency Rule",
+   "To": "Valuation Rules",
+   "Title": "Name->Rule_Name",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Address",
+   "Title": "Name->Country",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Fund - Test",
+   "Title": "ISO_Code->Country_of_Domicile",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Intra National Region",
+   "Title": "Name->Country",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Jurisdiction",
+   "Title": "Name->Country",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Languages Spoken",
+   "Title": "Name->Internal_1",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Party",
+   "Title": "Name->Country_of_Risk|Name->Country_of_Domicile|Name->Country_of_Incorporation",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Party Address",
+   "Title": "Name->Country",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Country",
+   "To": "Party Tax Rule",
+   "Title": "Name->Applicable_Jurisdiction",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Coupon Frequency",
+   "To": "Calendar Frequency Rule",
+   "Title": "Name->Frequency",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Coupon Frequency",
+   "To": "Fee Rules",
+   "Title": "Name->Crystallization_Freq|Name->Fee_Payment_Freq|Name->Fee_Calculation_Freq",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Coupon Frequency",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Crystallization_Freq|Name->Payment_Freq|Name->Calculation_Freq",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "CRM Sector",
+   "To": "Party",
+   "Title": "Name->Custom_Sector",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "CRM Sub Sector",
+   "To": "Party",
+   "Title": "Name->Custom_Sub_Sector",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Cross Functional Team",
+   "To": "Cross Functional Team Members",
+   "Title": "Name->Team",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Cross Functional Team",
+   "To": "Team Involvement",
+   "Title": "Name->Team_Name",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Crystallization Method",
+   "To": "Fee Rules",
+   "Title": "Name->Equalization_Method|Name->Crystallization_Method",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Crystallization Method",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Equalization_Method|Name->Crystallization_Method",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Currency",
+   "To": "Fund - Test",
+   "Title": "ISO_Code->Base_Currency",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Currency",
+   "To": "Fund Hedge Sleeve",
+   "Title": "Name->Sleeve_Currency",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Currency",
+   "To": "Geographic Area",
+   "Title": "ISO_Code->Currency",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Currency",
+   "To": "Share Class",
+   "Title": "ISO_Code->Share_Class_Currency",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Day",
+   "To": "Calendar Frequency Rule",
+   "Title": "Name->Day",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Department",
+   "To": "Cross Functional Team Members",
+   "Title": "Name->Department",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Department",
+   "To": "Employee",
+   "Title": "Name->Department|Name->Primary_Responsible_Team",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Department",
+   "To": "Employee Involvement",
+   "Title": "Name->Department",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Department",
+   "To": "Job Role",
+   "Title": "Name->Department",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Department",
+   "To": "Party",
+   "Title": "Name->Primary_Responsible_Department",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Employee",
+   "To": "Alternate IDs",
+   "Title": "Employee_ID->Internal_1",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Employee",
+   "To": "Cross Functional Team Members",
+   "Title": "Employee_ID->Employee",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Employee",
+   "To": "Employee Involvement",
+   "Title": "Email_Address->Employee",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Employee Title",
+   "To": "Employee",
+   "Title": "Name->Title",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "External Account Type",
+   "To": "Fund External Account",
+   "Title": "Name->External_Account_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fee Calculation Method",
+   "To": "Fee Rules",
+   "Title": "Name->Fee_Calculation_Method",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fee Calculation Method",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Fee_Calculation_Method",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fee Charge Type",
+   "To": "Fee Rules",
+   "Title": "Name->Fee_Charge",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fee Charge Type",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Fee_Charge",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fitch Long Term Rating",
+   "To": "Party",
+   "Title": "Name->Fitch_LT_Foreign_Currency_Debt_Rating|Name->Fitch_Cummulative_Preferred_Rating|Name->Fitch_Financial_Strength_Rating|Name->Fitch_Junior_Subordinated_Debt_Rating|Name->Fitch_LT_Bank_Deposits_Direction|Name->Fitch_LT_Bank_Deposits|Name->Fitch_LT_Local_Currency_Debt_Rating|Name->Fitch_Preferred_Stock_Rating|Name->Fitch_Outlook_Rating|Name->Fitch_Oeffentliche_Pfandbriefe_Rating|Name->Fitch_Non_Cumm_Preferred_Rating|Name->Fitch_LT|Name->Fitch_LT_Counterparty|Name->Fitch_Senior_Subordinate_Rating|Name->Fitch_Senior_Secured_Debt_Rating|Name->Fitch_LT_Foreign_Currency_Issuer_Default_Rating|Name->Fitch_Long_Term_Issuer_Default_Rating|Name->Fitch_Undated_Subordinated|Name->Fitch_Subordinated_Debt_Rating|Name->Fitch_Senior_Unsecured_Debt_Rating|Name->Fitch_Support_Rating|Name->Fitch_Viability_Rating|Name->Fitch_LT_LC_Issuer_Default_Rating|Name->Fitch_Hypotheken_Pfandbriefe_Rating",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fitch Rating Watch",
+   "To": "Party",
+   "Title": "Name->Fitch_LT__Foreign_Currency_Rating_Watch|Name->Fitch_LT_Local_Currency_Rating_Watch|Name->Fitch_Preferred_Stock_Rating_Watch|Name->Fitch_LT_Watch|Name->Fitch_Senior_Subordinate_Rating_Watch|Name->Fitch_Senior_Secured_Rating_Watch|Name->Fitch_LT_Issuer_Default_Rating_Watch|Name->Fitch_Subordinated_Rating_Watch|Name->Fitch_ST_Rating_Watch|Name->Fitch_Senior_Unsecured_Rating_Watch|Name->Fitch_Support_Rating_Watch|Name->Fitch_Viability_Rating_Watch_Status|Name->Fitch_ST_LC_Issuer_Default_Rating_Watch|Name->Fitch_ST_FC_Issuer_Default_Rating_Watch|Name->Fitch_ST_Issuer_Default_Rating_Watch|Name->Fitch_LT_LC_Issuer_Default_Rating_Watch|Name->Fitch_LT_FC_Issuer_Default_Rating_Watch|Name->Fitch_ST_Foreign_Currency_Debt_Watch",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fitch Short Term Rating",
+   "To": "Party",
+   "Title": "Name->Fitch_ST_Asset_Backed_Rating|Name->Fitch_Local_Currency_ST_Debt_Credit_Risk|Name->Fitch_ST_Counterparty|Name->Fitch_Short_Term_Rating__Issuer_Level|Name->Fitch_ST_LC_Issuer_Default_Rating|Name->Fitch_ST_FC_Issuer_Default_Rating|Name->Fitch_ST_Issuer_Default_Rating|Name->Fitch_ST_Foreign_Currency_Debt_Rating",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Dealing Rules",
+   "Title": "Fund_Mnemonic->Internal_10",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Employee Involvement",
+   "Title": "Fund_Mnemonic->Internal_7",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fee Movement Tolerances",
+   "Title": "Fund_Mnemonic->Internal_Fund_Mnemonic",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fee Rules",
+   "Title": "Fund_Mnemonic->Fee_Payer|Fund_Mnemonic->Internal_11",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Frozen Period",
+   "Title": "Fund_Mnemonic->Internal_15",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund - Test",
+   "Title": "Fund_Mnemonic->Fund_Master|Fund_Mnemonic->Parent_Fund",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund Alternative IDs",
+   "Title": "Fund_Mnemonic->Internal_2",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund Benchmark",
+   "Title": "Fund_Mnemonic->Internal_5",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund Classification",
+   "Title": "Fund_Mnemonic->Internal_4",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund Commentary",
+   "Title": "Fund_Mnemonic->Fund",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund External Account",
+   "Title": "Fund_Mnemonic->Internal_3",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund Hedge Sleeve",
+   "Title": "Fund_Mnemonic->Internal_8",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Fund Rating",
+   "Title": "Fund_Mnemonic->Internal_6",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Party Involvement",
+   "Title": "Fund_Mnemonic->Internal_1",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Share Class",
+   "Title": "Fund_Mnemonic->Fund|Fund_Mnemonic->Share_Class_Series_Family_Fund",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Share Class Series Family",
+   "Title": "Fund_Mnemonic->Series_Family_Fund",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Team Involvement",
+   "Title": "Fund_Mnemonic->Internal_12",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "TER",
+   "Title": "Fund_Mnemonic->Internal_17",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund - Test",
+   "To": "Valuation Rules",
+   "Title": "Fund_Mnemonic->Internal_9",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Classification Heading",
+   "To": "Fund Classification",
+   "Title": "Classification_Heading_Name->Classification_Heading",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Classification Heading",
+   "To": "Fund Classification Heading",
+   "Title": "Classification_Heading_Name->Parent_Classification_Heading",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Classification Type",
+   "To": "Fund Classification",
+   "Title": "Classification_Type_Name->Classification_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Classification Type",
+   "To": "Fund Classification Heading",
+   "Title": "Classification_Type_Name->Fund_Classification_Type|Classification_Type_Name->Parent_Classification_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Employee Involvement Type",
+   "To": "Employee Involvement",
+   "Title": "Name->Employee_Involvement_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Group",
+   "To": "Fund - Test",
+   "Title": "Name->Fund__Group",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Legal Structure",
+   "To": "Fund - Test",
+   "Title": "Name->Fund_Legal_Structure",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Rating Level",
+   "To": "Fund Rating",
+   "Title": "Rating_Level_Code->Rating_Level",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Status Type",
+   "To": "Fund - Test",
+   "Title": "Name->Fund_Status",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Fund Type",
+   "To": "Fund - Test",
+   "Title": "Name->Fund_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Geographic Area",
+   "To": "Geographic Area Relationship",
+   "Title": "Short_Name->Child_Area|Short_Name->Parent_Area",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Geographic Area Type",
+   "To": "Geographic Area",
+   "Title": "Name->Area_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Geographic Classification Type",
+   "To": "Geographic Area",
+   "Title": "Name->Classification_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Geographic Classification Type",
+   "To": "Geographic Area Relationship",
+   "Title": "Name->Child_Area_Classification|Name->Parent_Area_Classification",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Industry",
+   "To": "GICS Sub Industry",
+   "Title": "Name->Industry",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Industry",
+   "To": "Party",
+   "Title": "Name->GICS_Industry",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Industry Group",
+   "To": "GICS Industry",
+   "Title": "Name->Industry_Group",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Industry Group",
+   "To": "Party",
+   "Title": "Name->GICS_Industry_Group",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Sector",
+   "To": "GICS Industry Group",
+   "Title": "Name->Sector",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Sector",
+   "To": "Party",
+   "Title": "Name->GICS_Sector",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "GICS Sub Industry",
+   "To": "Party",
+   "Title": "Name->GICS_Sub_Industry",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Holiday Date Adjustment",
+   "To": "Calendar Frequency Rule",
+   "Title": "Name->Holiday_Date_Adjustment",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Hurdle Rate",
+   "To": "Fee Rules",
+   "Title": "Name->Hurdle",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Hurdle Rate",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Hurdle",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Identifier Type",
+   "To": "Alternate Identifiers",
+   "Title": "Name->Identifier_Type|Name->Alternate_ID_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Identifier Type",
+   "To": "Alternative Identifier",
+   "Title": "Name->External_Identifier_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Identifier Type",
+   "To": "Fund Alternative IDs",
+   "Title": "Name->ID_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Instrument Status Type",
+   "To": "Share Class",
+   "Title": "Name->Instrument_Status",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Intra National Region",
+   "To": "Jurisdiction",
+   "Title": "Name->Intra_National_Region",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Job Role",
+   "To": "Cross Functional Team Members",
+   "Title": "Job_Title->Job_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Job Role",
+   "To": "Employee",
+   "Title": "Code->Job_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Job Role",
+   "To": "Employee Involvement",
+   "Title": "Job_Title->Job_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Jurisdiction",
+   "To": "Location",
+   "Title": "Name->Jurisdiction",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Language",
+   "To": "Fund Commentary",
+   "Title": "Name->Language",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Language",
+   "To": "Languages Spoken",
+   "Title": "Name->Language",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Location",
+   "To": "Address",
+   "Title": "Name->City_or_Town",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Month",
+   "To": "Calendar Frequency Rule",
+   "Title": "Name->Month",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Movement Type",
+   "To": "Alternative Names",
+   "Title": "Name->Internal_1",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Movement Type",
+   "To": "Fee Movement Tolerances",
+   "Title": "Code->Fee_Type__Code",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Movement Type",
+   "To": "Fee Rules",
+   "Title": "Name->Fee_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Movement Type",
+   "To": "Reasonableness Check Tolerances",
+   "Title": "Code->Fee_Type_Code",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Movement Type",
+   "To": "Share Class Fee Rule",
+   "Title": "Name->Fee_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Alternate Identifiers",
+   "Title": "Short_Name->Internal_3",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Alternative Identifier",
+   "Title": "Legal_Name->Party_Identifier",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Alternative Names",
+   "Title": "Short_Name->Third_Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Cross Functional Team",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Cross Functional Team Members",
+   "Title": "Short_Name->Department_Party|Short_Name->Employee_Party|Short_Name->Team_Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Department",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Employee",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Employee Involvement",
+   "Title": "Short_Name->Party_Identifier|Short_Name->Employer",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund - Test",
+   "Title": "Short_Name->Fund_Company",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund Classification",
+   "Title": "Short_Name->Classifier_Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund Classification Heading",
+   "Title": "Short_Name->Parent_Party|Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund Classification Type",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund External Account",
+   "Title": "Short_Name->External_Party|Legal_Name->External_Party_for_Parent_Account",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund Rating",
+   "Title": "Short_Name->Rating_Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Fund Rating Level",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Job Role",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Ownership Structure",
+   "Title": "Short_Name->Internal_1|Legal_Name->Parent",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party",
+   "Title": "Short_Name->Ultimate_Parent_Party|Short_Name->Parent_Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party Address",
+   "Title": "Short_Name->Internal_5",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party Involvement",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party Ratings",
+   "Title": "Legal_Name->Ratings_Provider|Short_Name->Internal_7",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party Relationships",
+   "Title": "Short_Name->Internal_4|Legal_Name->Related_Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party Role",
+   "Title": "Short_Name->Internal_2",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Party Tax Rule",
+   "Title": "Short_Name->Internal_6",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Rating Classification",
+   "Title": "Short_Name->Party",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party",
+   "To": "Registration Status",
+   "Title": "Short_Name->Regulator",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Business Risk Level",
+   "To": "Party",
+   "Title": "Name->Business_Risk_Rating",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Ownership Type",
+   "To": "Ownership Structure",
+   "Title": "Name->Ownership_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Relationship Type",
+   "To": "Party Relationships",
+   "Title": "Name->Relationship_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Alternative Names",
+   "Title": "Name->Third_Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fee Rules",
+   "Title": "Name->Fee_Payer_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fund Classification",
+   "Title": "Name->Party_Role_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fund Classification Heading",
+   "Title": "Name->Parent_Party_Role|Name->Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fund Classification Type",
+   "Title": "Name->Party_Role_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fund External Account",
+   "Title": "Name->External_Party_Role|Code->External_Party_Role_of_Parent_Account",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fund Rating",
+   "Title": "Name->Rating_Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Fund Rating Level",
+   "Title": "Name->Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Movement Type",
+   "Title": "Name->Associated_Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Party Involvement",
+   "Title": "Name->Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Party Role",
+   "Title": "Name->Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Role Type",
+   "To": "Registration Status",
+   "Title": "Name->Party_Role",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Party Status Type",
+   "To": "Party",
+   "Title": "Name->Party_Status",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Position Type",
+   "To": "Valuation Rules",
+   "Title": "Name->Position_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Price Type",
+   "To": "Dealing Rules",
+   "Title": "Code->Price_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Price Type",
+   "To": "Share Class Dealing Rule",
+   "Title": "Name->Price_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Classification",
+   "To": "Party Ratings",
+   "Title": "Rating_Type->Rating_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Classification",
+   "To": "Rating Heading",
+   "Title": "Rating_Type->Rating_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Direction",
+   "To": "Party",
+   "Title": "Name->Fitch_Cumulative_Preferred_Direction|Name->Fitch_Asset_Backed_ST_Direction|Name->Fitch_Financial_Strength_Direction|Name->Fitch_Financial_Strength_Rating_Watch|Name->Fitch_Equity_Linked_Dir|Name->Fitch_Hypotheken_Pfandbriefe_Direction|Name->Fitch_LT_Bank_Deposit_Rating_Watch|Name->Fitch_Local_Currency_ST_Debt_Direction|Name->Fitch_Local_Currency_LT_Debt_Direction|Name->Fitch_Junior_Subordinated_Debt_Direction|Name->Fitch_Outlook_Direction|Name->Fitch_Oeffentliche_Pfandbriefe_Direction|Name->Fitch_Non_Cumulative_Preferred_Direction|Name->Fitch_LT_Direction|Name->Fitch_LT_Counterparty_Dir|Name->Fitch_Senior_Subordinate_Direction|Name->Fitch_Senior_Secured_Debt_Direction|Name->Fitch_ST_Counterparty_Dir|Name->Fitch_Preferred_Stock_Direction|Name->Fitch_Undated_Sub_Dir|Name->FITCH_Subordinated_Debt_Direction|Name->Fitch_ST_Direction|Name->Fitch_Senior_Unsecured_Debt_Direction|Name->Fitch_LT_Foreign_Currency_Debt_Direction|Name->Fitch_ST_Foreign_Currency_Debt_Direction",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Direction",
+   "To": "Party Ratings",
+   "Title": "Name->Rating_Direction",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Heading",
+   "To": "Party Ratings",
+   "Title": "Rating->Rating",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Timescale",
+   "To": "Party Ratings",
+   "Title": "Name->Rating_Timescale",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Rating Timescale",
+   "To": "Rating Classification",
+   "Title": "Name->Timescale",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Reference Rate",
+   "To": "Fund Benchmark",
+   "Title": "Security_Name->Benchmark",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Region",
+   "To": "Country",
+   "Title": "Name->Region",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Alternate Identifiers",
+   "Title": "Code->Internal_4",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Class NAV",
+   "Title": "Name->Share_Class",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Fund - Test",
+   "Title": "Code->Fed_Share_Class",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Fund External Account",
+   "Title": "Name->Share_Class",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Reasonableness Check Tolerances",
+   "Title": "Code->Internal_Share_Class_Mnemonic",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Registration Status",
+   "Title": "Name->Internal_1",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Share Class",
+   "Title": "Code->Fed_Share_Class",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Share Class Dealing Rule",
+   "Title": "Code->Internal_2",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class",
+   "To": "Share Class Fee Rule",
+   "Title": "Code->Internal_3",
+   "FromArrow": "dash",
+   "ToArrow": "arrow"
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class Registration Type",
+   "To": "Registration Status",
+   "Title": "Name->Registration_Status",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class Series Family",
+   "To": "Share Class",
+   "Title": "Series_Name->Share_Class_Series_Family",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class Type",
+   "To": "Fund Hedge Sleeve",
+   "Title": "Name->Share_Class_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Share Class Type",
+   "To": "Share Class",
+   "Title": "Name->Share_Class_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Sub or Red",
+   "To": "Dealing Rules",
+   "Title": "Name->Sub_or_Red",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Sub or Red",
+   "To": "Share Class Dealing Rule",
+   "Title": "Name->Sub_or_Red",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Tax Rule Type",
+   "To": "Party Tax Rule",
+   "Title": "Name->Tax_Rule_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Valuation Type",
+   "To": "Valuation Rules",
+   "Title": "Name->Valuation_Type",
+   "FromArrow": null,
+   "ToArrow": null
+ },
+ {
+   "Type": "Edge",
+   "From": "Voting Rights",
+   "To": "Share Class",
+   "Title": "Voting_Rights_Code->Voting_Rights",
+   "FromArrow": null,
+   "ToArrow": null
+ }
+]
