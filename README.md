@@ -21,6 +21,9 @@ A custom visualization tool to visualize underlying data model was built on top 
 
 ### Screen Shots
 
-https://user-images.githubusercontent.com/8515036/33111914-6ed67b38-cf76-11e7-86cb-a8994f60a684.png
+![relationships highlighted](https://user-images.githubusercontent.com/8515036/33111917-754f9148-cf76-11e7-8840-07565f166d58.png)
 
-https://user-images.githubusercontent.com/8515036/33111917-754f9148-cf76-11e7-8840-07565f166d58.png
+![attribute details upon entity click](https://user-images.githubusercontent.com/8515036/33111914-6ed67b38-cf76-11e7-86cb-a8994f60a684.png)
+
+
+
