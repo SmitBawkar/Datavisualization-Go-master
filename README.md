@@ -21,6 +21,6 @@ A custom visualization tool to visualize underlying data model was built on top 
 
 ### Screen Shots
 
-[![mutt dark](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image.png)](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image.png)
+https://user-images.githubusercontent.com/8515036/33111914-6ed67b38-cf76-11e7-86cb-a8994f60a684.png
 
-[![mutt light](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image(1).png)](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image(1).png)
+https://user-images.githubusercontent.com/8515036/33111917-754f9148-cf76-11e7-8840-07565f166d58.png
