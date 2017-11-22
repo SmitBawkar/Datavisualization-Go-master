@@ -15,11 +15,12 @@ Since Reference master uses dynamic data model, All the constraints are modeled 
 GoJS is a feature-rich JavaScript library for implementing custom interactive diagrams and complex visualizations across modern web browsers and platforms. GoJS makes constructing JavaScript diagrams of complex nodes, links, and groups easy with customizable templates and layouts.
 
 ** more about GOJS - https://gojs.net/latest/index.html
-### Feature list
 
-A custom visualization tool to visualize underlying data model was built on top of the logical layer by identifying the metadata that was generated while modeling entities from UI. The results was a beautiful interactive ER diagram with all the constraints, relationships, integrity checks, cardinalities visualized
+A custom visualization tool to visualize underlying data model was built on top of the logical layer using GOJs by identifying the metadata that was generated while modeling entities from UI. The results was a beautiful interactive ER diagram with all the constraints, relationships, integrity checks, cardinalities visualized
 
 
 ### Screen Shots
 
+[![mutt dark](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image.png)](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image.png)
 
+[![mutt light](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image(1).png)](https://github.com/SmitBawkar/Datavisualization-Go-master/edit/master/image(1).png)
